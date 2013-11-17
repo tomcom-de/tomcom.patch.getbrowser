@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.21.1'
+version = '2.13.21.2'
 
 setup(name='tomcom.patch.getbrowser',
       version=version,
@@ -37,6 +37,6 @@ setup(name='tomcom.patch.getbrowser',
       zip_safe=False,
       entry_points='''
 [z3c.autoinclude.plugin]
-target = zope
+target = plone
 ''',
 )
