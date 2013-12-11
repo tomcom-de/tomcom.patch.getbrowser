@@ -2,7 +2,7 @@ from OFS.SimpleItem import Item
 import warnings
 
 import logging
-logger = logging.getLogger('tomcom.patch.getbrowsr')
+logger = logging.getLogger('tomcom.patch.getbrowser')
 
 def get_browser(self, name):
 
@@ -10,8 +10,7 @@ def get_browser(self, name):
 
 def getBrowser(self, name):
 
-    logger.warning('Item -> getBrowser is deprecated please use get_browser')
-
+    logger.warning('Item -> getBrowser is deprecated please use get_browser for %s'%name)
     return self.get_browser(name)
 
 

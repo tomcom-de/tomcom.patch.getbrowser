@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.21.2'
+version = '2.13.21.3'
 
 setup(name='tomcom.patch.getbrowser',
       version=version,
